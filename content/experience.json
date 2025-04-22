@@ -1,0 +1,101 @@
+{
+  "work": [
+    {
+      "company": "BetterUp",
+      "title": "Full Stack Developer",
+      "description": [
+        "Full Stack Developer empowering employees to achieve their full potential through innovative solutions",
+        "Leading transition from EmberJS to React on the Partner Experience Team",
+        "Shipped features for 100+ partners including Google, Microsoft, and Disney",
+        "Working closely with cross-functional teams (Platform, Infra, Product, Design)",
+        "Tackled a wide range of technical challenges across the stack (Ruby, Rails, EmberJS, React, Postgres, Kubernetes)"
+      ],
+      "startDate": "2025-01",
+      "endDate": "2025-08",
+      "location": "San Francisco, CA",
+      "icon": "/images/experience/betterup.png"
+    },
+    {
+      "company": "Tesla",
+      "title": "Vehicle Software Intern",
+      "description": [
+        "Worked on & led development of bespoke vehicle and mobile prototypes experimenting with new interaction patterns (React, Svelte)",
+        "Owned & shipped 4 in-vehicle media apps including Youtube, Amazon, and Audible",
+        "Worked closely with Test Engineers, Solutions Architects, and Product Designers",
+        "Worked on Tesla Diner, RoboTaxi, and other confidential projects",
+        "Received return offer following internship"
+      ],
+      "startDate": "2024-01",
+      "endDate": "2024-08",
+      "location": "Los Angeles, CA",
+      "icon": "/images/experience/tesla.png"
+    },
+    {
+      "company": "Cumuless",
+      "title": "Co-Founder & CTO",
+      "description": [
+        "Built an enterprise knowledge search platform connecting to Confluence, Teams, etc.",
+        "Made content semantically searchable & chattable in a VPC enclosed environment",
+        "Sole Developer using Next.js, Python, AWS (EC2, VPCs, Bedrock), LLM, RAG",
+        "Raised $25k in funding"
+      ],
+      "startDate": "2023-08",
+      "endDate": "2025-01",
+      "location": "Waterloo, ON",
+      "icon": "/images/experience/cumuless.jpeg"
+    },
+    {
+      "company": "Huawei",
+      "title": "Software Developer Intern",
+      "description": [
+        "Developed tools (C++, Assembly) to enhance performance of Huawei's LLVM BiSheng Compiler",
+        "Found pass-ordering opportunities for runtime improvement with AI tools (LLVM OpenTuner)"
+      ],
+      "startDate": "2023-05",
+      "endDate": "2023-08",
+      "location": "Toronto, ON",
+      "icon": "/images/experience/huawei.png"
+    },
+    {
+      "company": "CIBC",
+      "title": "Cloud Engineer Intern",
+      "description": [
+        "Worked on infrastructure for multiple internal tools on Technology Operations Team",
+        "Used Azure DevOps and took on deployments of multiple resources (Databricks, Key Vault, VMs)"
+      ],
+      "startDate": "2022-05",
+      "endDate": "2022-08",
+      "location": "Toronto, ON",
+      "icon": "/images/experience/cibc.png"
+    },
+    {
+      "company": "SV Robotics",
+      "title": "Software Developer",
+      "description": [
+        "Created a Data Analytics Tracking Software (HTML, JS, SQL) to manage company finances",
+        "Created a virtual classroom & IDE using Flask, and various APIs",
+        "Co-lead Project Development Team (10-15 employees)"
+      ],
+      "startDate": "2020-02",
+      "endDate": "2020-09",
+      "location": "Markham, ON",
+      "icon": "/images/experience/sv.jpg"
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Waterloo",
+      "degree": "Bachelor of Science, Computer Science",
+      "startDate": "2021-09",
+      "endDate": "2025-12",
+      "location": "Waterloo, ON",
+      "details": [
+        "Currently standing at 3.9 GPA",
+        "Studied: DSA, OS, Optimization, DBMS, UX",
+        "Involved in the Velocity Startup Incubator Program",
+        "Executive in the Muslim Student Association"
+      ],
+      "icon": "/images/experience/waterloo.png"
+    }
+  ]
+} 

@@ -1,0 +1,55 @@
+{
+  "id": "hand-controlled-drone",
+  "title": "Hand Controlled Drone",
+  "description": "Drone controlled by hand tilt and finger movement.",
+  "images": [
+    "/images/projects/hand-controlled-drone/1.jpg",
+    "/images/projects/hand-controlled-drone/2.jpg",
+    "/images/projects/hand-controlled-drone/3.jpg",
+    "/images/projects/hand-controlled-drone/4.png",
+    "/images/projects/hand-controlled-drone/5.png",
+    "/images/projects/hand-controlled-drone/6.jpg",
+    "/images/projects/hand-controlled-drone/7.jpg",
+    "/images/projects/hand-controlled-drone/8.png",
+    "/images/projects/hand-controlled-drone/9.png",
+    "/images/projects/hand-controlled-drone/10.jpg",
+    "/images/projects/hand-controlled-drone/11.jpg",
+    "/images/projects/hand-controlled-drone/12.jpg",
+    "/images/projects/hand-controlled-drone/13.jpg"
+  ],
+  "date": "2019-12",
+  "tools": ["Hardware", "C++", "PCB Design"],
+  "githubUrl": "https://github.com/Arduino-Projects/Hand-Controlled-Drone",
+  "demoUrl": "https://youtu.be/QUVkD9dbbwk",
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "This was my longest and most complicated project. I developed a drone that can be controlled by hand movements. Tilting your hand controls the drone's flight direction, while moving your index finger controls the drone's level/throttle.",
+      "type": "text"
+    },
+    {
+      "title": "Glove Device Components",
+      "content": [
+        "ATMEGA328P Microcontroller",
+        "MPU6050 Gyro + Accelerometer",
+        "RF24 Radio With Booster",
+        "RGB Indicator LED"
+      ],
+      "type": "list"
+    },
+    {
+      "title": "Drone Controller Components",
+      "content": [
+        "ATMEGA328P Microcontroller for parsing RF24 Data",
+        "STM32 Microcontroller for running PID loops and flight software",
+        "MPU6000 Gyro + Accelerometer"
+      ],
+      "type": "list"
+    },
+    {
+      "title": "Technical Implementation",
+      "content": "All schematics and PCBs were designed and made from scratch using EasyEDA PCB software. All components were hand-soldered for this project.",
+      "type": "text"
+    }
+  ]
+} 

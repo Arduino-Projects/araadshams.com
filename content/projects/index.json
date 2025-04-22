@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": "cumuless",
+      "title": "Cumuless",
+      "description": "Glean, almost. AI integrating semantic search across enterprise knowledge bases.",
+      "thumbnail": "/images/projects/cumuless/1.png",
+      "date": "2023-08",
+      "tools": ["Next.js", "Python", "AWS", "AI", "RAG"]
+    },
+    {
+      "id": "vr-virtual-classroom",
+      "title": "VR Virtual Classroom",
+      "description": "Remote VR classroom with real-time interaction and teacher streaming.",
+      "thumbnail": "/images/projects/vr-virtual-classroom/1.png",
+      "date": "2020-09",
+      "tools": ["3D", "NoSQL"]
+    },
+    {
+      "id": "the-smarter-home",
+      "title": "The Smarter Home",
+      "description": "Smart home system with RF24 radio communication between devices.",
+      "thumbnail": "/images/projects/the-smarter-home/1.jpg",
+      "date": "2020-02",
+      "tools": ["Hardware", "NoSQL", "Swift"]
+    },
+    {
+      "id": "digitron",
+      "title": "DigiTron",
+      "description": "Digital scantron system with inexpensive devices for each student.",
+      "thumbnail": "/images/projects/digitron/1.jpg",
+      "date": "2019-12",
+      "tools": ["Hardware", "C++"]
+    },
+    {
+      "id": "hand-controlled-drone",
+      "title": "Hand Controlled Drone",
+      "description": "Homemade drone controlled by hand tilt and finger movement.",
+      "thumbnail": "/images/projects/hand-controlled-drone/1.jpg",
+      "date": "2019-12",
+      "tools": ["Hardware", "C++"]
+    }
+  ]
+} 

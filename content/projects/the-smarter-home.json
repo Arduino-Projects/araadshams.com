@@ -1,0 +1,56 @@
+{
+  "id": "the-smarter-home",
+  "title": "The Smarter Home",
+  "description": "Smart home system with RF24 radio communication between devices.",
+  "images": [
+    "/images/projects/the-smarter-home/1.jpg",
+    "/images/projects/the-smarter-home/2.jpg",
+    "/images/projects/the-smarter-home/3.jpg",
+    "/images/projects/the-smarter-home/4.jpg",
+    "/images/projects/the-smarter-home/5.jpg",
+    "/images/projects/the-smarter-home/6.jpg",
+    "/images/projects/the-smarter-home/7.jpg"
+  ],
+  "date": "2020-02",
+  "tools": ["Hardware", "Firebase", "Swift", "Arduino"],
+  "githubUrl": "https://github.com/Arduino-Projects/The-Smarter-Home",
+  "postUrl": "https://devpost.com/software/the-smarter-home",
+  "accolades": ["McHacks VII - Top 6"],
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "A smart home system designed to overcome the issues of modern smart systems. It uses one hub device that is connected to the internet, while all other node devices are connected to the hub using 2.4 GHz RF24 Radio. The hub device is controlled via an iOS App through a global server.",
+      "type": "text"
+    },
+    {
+      "title": "Sample Devices",
+      "content": [
+        "Lamp",
+        "RGB Light",
+        "Doorbell",
+        "Door Lock"
+      ],
+      "type": "list"
+    },
+    {
+      "title": "Technology Stack",
+      "content": [
+        "Firebase - For the hub device and iOS app to communicate",
+        "XCode + Swift - iOS App",
+        "NodeMCU - Hub Device WiFi Connection",
+        "RF24 Radio - Hub/Node Communication"
+      ],
+      "type": "list"
+    },
+    {
+      "title": "Purpose",
+      "content": "To provide a secure, fast, and stable Smart Home System.",
+      "type": "text"
+    },
+    {
+      "title": "Achievement",
+      "content": "This project placed in the Top 6 at McHacks VII as a solo developer.",
+      "type": "text"
+    }
+  ]
+} 

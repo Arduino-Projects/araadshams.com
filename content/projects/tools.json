@@ -1,0 +1,79 @@
+{
+  "tools": [
+    {
+      "name": "React",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "filterable": true
+    },
+    {
+      "name": "Next.js",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "filterable": true
+    },
+    {
+      "name": "Python",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+      "filterable": true
+    },
+    {
+      "name": "AWS",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+      "filterable": true
+    },
+    {
+      "name": "AI",
+      "icon": "https://images.seeklogo.com/logo-png/55/2/claude-logo-png_seeklogo-554534.png",
+      "filterable": true
+    },
+    {
+      "name": "C++",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+      "filterable": true
+    },
+    {
+      "name": "NoSQL",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg",
+      "filterable": true
+    },
+    {
+      "name": "Swift",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg",
+      "filterable": true
+    },
+    {
+      "name": "3D",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
+      "filterable": true
+    },
+    {
+      "name": "Hardware",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/labview/labview-original.svg",
+      "filterable": true
+    },
+    {
+      "name": "Unity",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
+      "filterable": false
+    },  
+    {
+      "name": "Blender",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg",
+      "filterable": false
+    },
+    {
+      "name": "Firebase",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg",
+      "filterable": false
+    },
+    {
+      "name": "Arduino",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg",
+      "filterable": false
+    },
+    {
+      "name": "Visual Basic",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg",
+      "filterable": false
+    }
+  ]
+}

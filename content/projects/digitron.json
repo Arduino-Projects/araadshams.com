@@ -1,0 +1,41 @@
+{
+  "id": "digitron",
+  "title": "DigiTron",
+  "description": "Digital scantron system with inexpensive devices for each student.",
+  "images": [
+    "/images/projects/digitron/1.jpg",
+    "/images/projects/digitron/2.jpg",
+    "/images/projects/digitron/3.jpg",
+    "/images/projects/digitron/4.jpg"
+  ],
+  "date": "2019-12",
+  "tools": ["Hardware", "Arduino", "Visual Basic"],
+  "githubUrl": "https://github.com/Arduino-Projects/DigiTron",
+  "postUrl": "https://devpost.com/software/digitron-a-digital-scantron",
+  "accolades": ["Hack The Hammer II - First Place"],
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "A digital scantron system created to eliminate the drawbacks of the traditional paper scantron system. Each student gets an inexpensive scantron device with 5 buttons for ABCDE, a previous button, and a next/submit button. Students connect to the teacher's device with a 4 letter code, complete their test, and press the submit button. The teacher then sees all of the students who are done on the teacher app, along with each student's scores.",
+      "type": "text"
+    },
+    {
+      "title": "Advantages",
+      "content": "DigiTron eliminates messy pencil mark errors, removes the time needed to scan each scantron, and provides a digital copy of all the students' marks instantly. Additionally, the teacher app automatically runs an algorithm to check for any signs of cheating.",
+      "type": "text"
+    },
+    {
+      "title": "Technical Implementation",
+      "content": [
+        "Arduino + RF24 + OLED Display - Student Devices",
+        "Visual Basic - Teacher App"
+      ],
+      "type": "list"
+    },
+    {
+      "title": "Achievement",
+      "content": "This project won First Place at Hack The Hammer II.",
+      "type": "text"
+    }
+  ]
+} 

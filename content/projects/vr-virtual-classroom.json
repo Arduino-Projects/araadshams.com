@@ -1,0 +1,41 @@
+{
+  "id": "vr-virtual-classroom",
+  "title": "VR Virtual Classroom",
+  "description": "Remote VR classroom with real-time interaction and teacher streaming.",
+  "images": [
+    "/images/projects/vr-virtual-classroom/1.png",
+    "/images/projects/vr-virtual-classroom/2.png",
+    "/images/projects/vr-virtual-classroom/3.png"
+  ],
+  "date": "2020-09",
+  "tools": ["Unity", "Blender", "Firebase", "Agora"],
+  "githubUrl": "https://github.com/Arduino-Projects/The-Virtual-Classroom",
+  "accolades": ["HackMIT 2020 - Second Place"],
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "A VR Virtual Classroom for both students and teachers. Students simply put a phone into a VR Viewer (Google Cardboard) and open our app. They are seated at a desk in a classroom with their classmates around them, whose positions and rotations are updated in real-time. The teacher is at the front of the class, live-streaming their lesson through our teacher app on a blackboard. Students can raise their hands, stand up, and enjoy a realistic classroom experience.",
+      "type": "text"
+    },
+    {
+      "title": "Technical Implementation",
+      "content": [
+        "Unity - Virtual Classroom App and Design",
+        "Blender - 3D Student Object + Animation Designs",
+        "Agora - Live Video + Audio Streaming",
+        "HTML - Teacher App"
+      ],
+      "type": "list"
+    },
+    {
+      "title": "Purpose",
+      "content": "The Virtual Classroom allows students to enjoy a real classroom environment from the safety of their own homes, which was especially relevant during the COVID-19 pandemic.",
+      "type": "text"
+    },
+    {
+      "title": "Achievement",
+      "content": "This project won Second Place at HackMIT 2020.",
+      "type": "text"
+    }
+  ]
+} 

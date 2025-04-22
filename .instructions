@@ -1,0 +1,144 @@
+Okay. We're going to make my personal portfolio site. I'm going to be using Next.js, Shadcn UI, and Tailwind CSS.
+Work in the existing app directory. There's some stuff there, feel free to remove any/all of it.
+
+We're going to have 3 pages:
+- About (which will be the home page)
+- Experience
+- Projects
+
+The about page will have:
+    - a profile picture of me
+    - my name
+    - a short bio
+    - a list of links to my social media
+
+The experience page:
+    - will have a list of my work experience.
+        - each work experience will have a company name
+        - each work experience will have a job title
+        - each work experience will have a job description in point form
+        - each work experience will have a job start date
+        - each work experience will have a job end date
+        - each work experience will have a job location
+    - will have a list of my education.
+        - each education will have a school name
+        - each education will have a degree
+        - each education will have a degree start date
+        - each education will have a degree end date
+        - each education will have a degree location
+    - You are to reference all of the content for the experience page from an appropriate JSON file.
+
+The projects page:
+- will be a showcasing with a list of my projects. The projects will be displayed in a grid.
+    - Each project card will have a thumbnail image
+    - Each project card will have a title
+    - Each project card will have a short description
+    - Each project card will have a link to the project
+    - Each project card will have a list of tools/skills used
+- Projects should be filterable by the tool/skill used.
+- The filter bar should contain small cards with the name of the tool/skill, an icon related to the tool/skill, and a button to remove the filter if selected.
+- You are to reference all of the content for the projects page from an appropriate JSON file.
+- When a project card is clicked, it should open a page with the project details.
+    - The project details page will have a title
+    - The project details page will have a description
+    - The project details page will have a date
+    - The project details page will have a list of tools/skills used (using the same cards in the filter bar)
+    - The project details page will have a link to the code
+    - The project details page might have a link to the live demo
+    - You are to reference all of the content for the project details page from an appropriate JSON file.
+
+The site should be responsive and mobile friendly.
+
+The site should be fast loading and have a good user experience.
+
+I want the site to be really simple and clean - I love minimalism. Modern like new AI sites generally are.
+
+Here's a plan to build this step by step:
+
+1. About Page (Home Page) Implementation
+   A. Content Setup
+      - Create about.json with profile data
+      - Define interfaces for profile data
+      - Set up Zod validation
+
+   B. Component Structure
+      - Create ProfileImage component
+        * Image optimization
+        * Responsive sizing
+        * Loading states
+      - Create Bio component
+        * Name section
+        * Bio text
+      - Create SocialLinks component
+        * Individual link components
+        * Hover states
+        * Icon integration
+
+   C. Create the actual About Page
+
+2. Experience Page Implementation
+   A. Data Structure
+      - Create experience.json
+        * Work experience section
+        * Education section
+      - Create TypeScript interfaces
+        * IWorkExperience
+        * IEducation
+      - Implement Zod schemas
+
+   B. Component Hierarchy
+      - Timeline container
+      - Work experience cards
+      - Education cards
+      - Date indicators
+      - Location badges
+
+    C. Create the actual Experience Page
+
+3. Projects Page Implementation
+   A. Data Layer
+      - Create projects.json
+        * Project details
+        * Tools/skills data
+      - Create interfaces
+        * IProject
+        * IProjectDetails
+        * ITool
+      - Implement Zod schemas
+
+   B. Filter System
+      - Create ToolFilter component
+        * Filter card design
+        * State management
+        * Filter logic
+      - Create FilterBar container
+        * Responsive layout
+        * Filter selection UI
+
+   C. Project Grid
+      - Create ProjectCard component
+        * Card layout
+        * Image handling
+        * Hover states
+      - Create ProjectGrid container
+        * Grid layout
+        * Responsive adjustments
+
+   D. Project Details Page
+      - Create dynamic route structure
+      - Build ProjectDetails component
+        * Header section
+        * Content sections
+        * Tools display
+        * Link buttons
+
+    C. Create the actual Projects Page
+
+Each component will be created with:
+- TypeScript interfaces
+- Server/Client component separation
+- Mobile-first responsive design
+- Performance optimization
+- Loading states
+- Error boundaries
+

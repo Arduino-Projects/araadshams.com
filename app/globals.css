@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 22 30% 7%; /* #41342E */
+    --foreground: 60 100% 99%; /* #FFFFFC */
+    
+    --primary: 60 100% 99%; /* #FFFFFC */
+    --primary-foreground: 0 0% 9%;
+    
+    --secondary: 35 45% 71%; /* #CDB99C */
+    --secondary-foreground: 0 0% 9%;
+    
+    --tertiary: 15 23% 43%; /* #846455 */
+    --tertiary-foreground: 0 0% 98%;
+    
+    --accent: 28 90% 57%; /* #F59031 */
+    --accent-foreground: 0 0% 98%;
+    
+    --card: 22 15% 22%; /* #41342E */
+    --card-foreground: 60 100% 99%; /* #FFFFFC */
+    
+    --popover: 22 15% 22%; /* #41342E */
+    --popover-foreground: 60 100% 99%; /* #FFFFFC */
+    
+    --muted: 15 23% 43%; /* #846455 (tertiary) as muted */
+    --muted-foreground: 60 100% 99%; /* #FFFFFC */
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 15 23% 20%; /* #846455 (tertiary) - softer border color */
+    --input: 35 45% 71%; /* #CDB99C */
+    --ring: 28 90% 57%; /* #F59031 */
+    
+    --chart-1: 28 90% 57%; /* #F59031 */
+    --chart-2: 35 45% 71%; /* #CDB99C */
+    --chart-3: 15 23% 43%; /* #846455 */
+    --chart-4: 22 15% 22%; /* #41342E */
+    --chart-5: 60 100% 99%; /* #FFFFFC */
+    
+    --radius: 0.5rem;
+  }
+  
+  .dark {
+    --background: 22 15% 22%; /* #41342E */
+    --foreground: 60 100% 99%; /* #FFFFFC */
+    
+    --primary: 60 100% 99%; /* #FFFFFC */
+    --primary-foreground: 0 0% 9%;
+    
+    --secondary: 35 45% 71%; /* #CDB99C */
+    --secondary-foreground: 0 0% 9%;
+    
+    --tertiary: 15 23% 43%; /* #846455 */
+    --tertiary-foreground: 0 0% 98%;
+    
+    --accent: 28 90% 57%; /* #F59031 */
+    --accent-foreground: 0 0% 98%;
+    
+    --card: 22 15% 22%; /* #41342E */
+    --card-foreground: 60 100% 99%; /* #FFFFFC */
+    
+    --popover: 22 15% 22%; /* #41342E */
+    --popover-foreground: 60 100% 99%; /* #FFFFFC */
+    
+    --muted: 15 23% 43%; /* #846455 (tertiary) as muted */
+    --muted-foreground: 60 100% 99%; /* #FFFFFC */
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 15 23% 5%; /* #846455 */
+    --input: 35 45% 71%; /* #CDB99C */
+    --ring: 28 90% 57%; /* #F59031 */
+    
+    --chart-1: 28 90% 57%; /* #F59031 */
+    --chart-2: 35 45% 71%; /* #CDB99C */
+    --chart-3: 15 23% 43%; /* #846455 */
+    --chart-4: 22 15% 22%; /* #41342E */
+    --chart-5: 60 100% 99%; /* #FFFFFC */
+  }
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

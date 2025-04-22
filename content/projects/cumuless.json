@@ -1,0 +1,61 @@
+{
+  "id": "cumuless",
+  "title": "Cumuless",
+  "description": "An AI-powered sidekick that drives sales funnels by integrating semantic search across enterprise knowledge bases and communications.",
+  "images": [
+    "/images/projects/cumuless/1.png",
+    "/images/projects/cumuless/2.png",
+    "/images/projects/cumuless/3.png"
+  ],
+  "date": "2023-08",
+  "tools": ["Next.js", "Python", "AWS", "AI", "RAG"],
+  "githubUrl": "https://github.com/cumuless",
+  "archivedDemoUrl": "https://demo.cumuless.com",
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Cumuless connects to an enterprise's knowledge sources (Confluence, Teams, etc.) and makes all content semantically searchable & chattable in a smart, VPC enclosed, user-access aware environment. As the sole developer and Co-Founder & CTO of this startup, I successfully raised $25k in funding while building the platform from August 2023 to December 2024.",
+      "type": "text"
+    },
+    {
+      "title": "Key Features",
+      "content": [
+        "AI-powered semantic search across multiple data sources",
+        "Secure GenAI chat for generating, summarizing and extracting information",
+        "Real-time indexing and updates",
+        "Role-based access control",
+        "Integration with existing communication tools"
+      ],
+      "type": "list"
+    },
+    {
+      "title": "Business Impact",
+      "content": [
+        "Reduces 20% of work time spent searching for information",
+        "Unlocks value from 80% of unstructured team data",
+        "Prevents recreation of existing information",
+        "Improves decision making by enabling better information access"
+      ],
+      "type": "list"
+    },
+    {
+      "title": "Use Cases",
+      "content": [
+        "Marketing & Branding: Creating optimized marketing collateral and campaign formulation",
+        "Sales & Business Development: Training team members, compressing sales cycles, and creating sales collateral",
+        "Customer Success & Retention: Resolving customer queries independently and finding documentation without delay"
+      ],
+      "type": "list"
+    },
+    {
+      "title": "Technical Implementation",
+      "content": "As the sole developer on this project, I built Cumuless using Next.js for the frontend and Python for the backend. The infrastructure was deployed on AWS using a variety of services including EC2 instances, VPCs for secure networking, and AWS Bedrock for AI capabilities. The platform implements a Retrieval Augmented Generation (RAG) architecture with Large Language Models (LLMs) to provide context-aware responses while maintaining security in a user-access aware environment. The VPC-enclosed architecture ensures that sensitive enterprise data remains secure while still enabling powerful semantic search capabilities.",
+      "type": "text"
+    },
+    {
+      "title": "Achievements",
+      "content": "Raised $25k in funding as sole developer serving as Co-Founder & CTO from August 2023 to December 2024.",
+      "type": "text"
+    }
+  ]
+} 
